@@ -1,9 +1,6 @@
-<h2>Welcome to Tapas with Ember</h2>
-<p>
-  You are running in the {{env.name}} environment.
-</p>
+<h2>Available Books:</h2>
 <ul>
-  {{#each item in content}}
-    <li>{{item}}</li>
+  {{#each}}
+    <li>{{title}} [<a href="#" {{action "openSummary" this}}>summary</a>]</li>
   {{/each}}
 </ul>
