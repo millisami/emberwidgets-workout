@@ -4,3 +4,9 @@
     <li>{{title}} [<a href="#" {{action "openSummary" this}}>summary</a>]</li>
   {{/each}}
 </ul>
+
+{{#popover-link-component tagName="button"
+  class="btn btn-primary" title="Hello"
+  content="Hello World"}}
+  Show Popover Button-Left
+{{/popover-link-component}}
