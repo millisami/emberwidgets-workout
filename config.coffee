@@ -23,6 +23,10 @@ exports.config =
           "vendor/ember/#{environment}/ember-data.js"
           "vendor/ember/#{environment}/ember-model.js"
           # Anything else that depends on Ember
+          'vendor/scripts/ember_widgets/ember_widgets.coffee'
+          'vendor/scripts/ember_widgets/mixins.coffee'
+          'vendor/scripts/ember_widgets/popover.coffee'
+          'vendor/scripts/ember_widgets/popover_link.coffee'
         ]
 
     stylesheets:
